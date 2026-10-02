@@ -1,7 +1,5 @@
 import sys
 from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QTextEdit, QSpinBox, QLabel
-from PySide6.QtGui import QIcon
-from PySide6.QtCore import QSize
 from backend import load_data, service_by_category, service_status, save_data
 
 class CarMaintenance(QWidget):
